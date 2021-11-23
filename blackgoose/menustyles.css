@@ -3,7 +3,7 @@ body {
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
-  background: #d2dc9d url(images2/blackgoose.png) no-repeat center 100px fixed;
+  background: #faf2e4 url(images2/blackgoose.png) no-repeat center 100px fixed;
   /* background-image: url(images2/bullseye.png);
   background-position: center 200px; */
 }
@@ -47,7 +47,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: .5em;
   text-align: center;
-  color: #c60;
+  color: #d1633c;
 }
 dt {
   font-weight: bold;
