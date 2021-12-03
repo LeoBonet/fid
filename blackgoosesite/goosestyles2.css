@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 10% 0;
+  background: #faf2e4 url(images2/blackgoose.png) no-repeat center 100px fixed;
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background: url(images2/goose_shadow.png) center top repeat-x .75;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #faf2e4;
+}
+a:visited {
+  color: #dbd0bd;
+}
+a:focus, a:hover {
+	color: #000;
+	font-size: 150%;
+}
+a:active {
+	color: #fff;
+}
+
+
+h1 {
+text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-shadow: .1em .1em .2em gray;
+opacity: .75;
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #d1633c;
+}
+h3 {
+text-transform: uppercase;
+color: #d1633c;
+}
+
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+p.warning, sup {
+  font-size: small;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+p {
+  text-align: center;
+
+margin-left: 5em;
+   margin-right: 5em;
+ }
+}
+footer {
+   border-top: 1px solid #57b1dc;
+   text-align: center;
+   padding-top: 1em;
+ }
+ footer img{
+   width: 40px;
+   height: 40px;
+   margin-left: .5em;
+   margin-right: .5em;
+ }
+#nav {
+    padding-top: 6px;
+    position: absolute;
+    left: 0px;
+    height: 32px;
+    background-color: #d1633c; opacity:.75;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+#darklink {
+color: #000;
+font-size: 120%;
+ margin-left: auto;
+  margin-right: auto;
+
+}
+#darklink:hover {
+color: #000;
+font-size: 140%;
+border: 1px solid #000;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
